@@ -1,0 +1,40 @@
+name: qasamtaha
+description: قسمتها - قسّم المصاريف مع أصحابك
+publish_to: none
+version: 0.1.0+1
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+dependencies:
+  flutter: {sdk: flutter}
+  flutter_localizations: {sdk: flutter}
+  intl: any
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  google_fonts: ^6.2.1
+  http: ^1.6.0
+  image_picker: ^1.2.3
+  share_plus: ^13.3.1
+dev_dependencies:
+  flutter_test: {sdk: flutter}
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.7
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+  adaptive_icon_background: "#B84C1E"
+  adaptive_icon_foreground: "assets/icon/foreground.png"
+
+flutter_native_splash:
+  color: "#FBF3E8"
+  color_dark: "#15110E"
+  image: "assets/icon/splash_logo.png"
+  android_12:
+    color: "#FBF3E8"
+    color_dark: "#15110E"
+    image: "assets/icon/splash_logo.png"
